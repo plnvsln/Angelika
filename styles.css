@@ -10,6 +10,8 @@ body {
   --color2: #6369c0;
 }
 
+/* NAVBAR */
+
 .nav-bar {
   width: 100%;
   display: flex;
@@ -96,4 +98,65 @@ body {
   #check:checked ~ .menu {
     right: 0;
   }
+}
+/* HERO */
+
+.hero {
+  height: 100vh;
+  background-image: url(/img/circle-rainbow.jpeg);
+  background-size: cover;
+}
+
+.hero-heading {
+  margin: 0 auto;
+  width: 60%;
+}
+.hero-heading h1 {
+  font-size: 150px;
+  margin: 50px;
+  text-align: left;
+
+  /* padding: 30px 100px; */
+}
+.title {
+  display: block;
+  text-align: right;
+}
+.second-section div {
+  margin: 30px auto;
+}
+.second-section img {
+  width: 70%;
+}
+/* .second-section {
+  display: flex;
+  margin: 30px;
+}
+.img-box {
+  padding: 10px;
+}
+.second-section p {
+  background-color: aqua;
+}
+.example {
+  display: flex;
+  border: 1px navy solid;
+} */
+
+/* ABOUT ME */
+.about-page-background {
+  height: 150vh;
+  background-image: url(/img/toronto.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+
+  color: antiquewhite;
+}
+.about-page-background a {
+  color: antiquewhite;
+}
+
+.photo img {
+  width: 30%;
 }
